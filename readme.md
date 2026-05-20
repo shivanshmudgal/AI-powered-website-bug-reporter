@@ -3,7 +3,7 @@
 Paste any website URL and get an instant automated quality report powered by AI.
 
 ## Live App
-🔗 [Open Live App](https://webbugreport.streamlit.app/)
+🔗 [https://webbugreport.streamlit.app/](https://webbugreport.streamlit.app/)
 
 ## What the app does
 
