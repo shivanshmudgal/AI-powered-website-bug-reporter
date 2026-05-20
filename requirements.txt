@@ -1,0 +1,48 @@
+# WebCheck — AI Website Bug Reporter
+
+An automated website quality testing tool built with Python and Streamlit. Paste any URL, run 7 automated checks, and get an AI-generated QA report instantly.
+
+## 🔗 Live Demo
+[Link to your live app on Streamlit Cloud]
+
+## What it does
+
+| Check | What it tests |
+|-------|--------------|
+| Site reachability | HTTP status + response time |
+| Load time | Flags slow sites (>2s warn, >4s fail) |
+| HTTPS | Checks SSL/secure connection |
+| Title tag | Verifies `<title>` exists |
+| Meta description | Checks SEO meta tag |
+| Mobile viewport | Verifies mobile-friendly tag |
+| Image alt tags | Accessibility check on images |
+
+After checks, results are sent to **Claude AI** which generates a professional QA report with executive summary, issues, and recommendations.
+
+## 🤖 How AI was used
+
+- **Claude AI (Anthropic API)** — generates the QA bug report from raw test results
+- **Claude (claude.ai)** — used to vibe-code the entire app: backend logic, check functions, and UI
+- Built using an AI-assisted development workflow throughout
+
+## Tech Stack
+- Python · Streamlit · Requests · Claude AI API
+
+## Run locally
+
+```bash
+git clone https://github.com/YOUR_USERNAME/webcheck-streamlit
+cd webcheck-streamlit
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Deploy free on Streamlit Cloud
+
+1. Push to GitHub
+2. Go to [share.streamlit.io](https://share.streamlit.io)
+3. Connect repo → set `ANTHROPIC_API_KEY` in Secrets
+4. Deploy — live URL in 2 minutes!
+
+## Author
+Shivansh Mudgal · [LinkedIn](https://linkedin.com/in/shivansh-mudgal)
