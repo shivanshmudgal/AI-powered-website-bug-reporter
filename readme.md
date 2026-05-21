@@ -23,7 +23,7 @@ After the checks, the results are sent to **Claude AI** which generates a short 
 
 This project was built using a vibe-coding approach with **Claude AI (claude.ai)**:
 - Claude wrote the entire Python backend and Streamlit UI
-- Claude AI API (claude-haiku) is used inside the app to generate the quality report
+- Claude AI API is used inside the app to generate the quality report
 - Prompts were refined through conversation with Claude to improve output quality
 
 ## How to run locally
